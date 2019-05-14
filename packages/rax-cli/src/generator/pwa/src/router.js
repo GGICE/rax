@@ -13,7 +13,7 @@ const config = () => {
       // Static Component
       {
         path: '',
-        component: () => import(/* webpackChunkName: "pages.index" */ './/pages/index')
+        component: () => import(/* webpackChunkName: "pages.index" */ './pages/index')
           .then(interopRequire)
           .then(Index => <Index />)
       },
@@ -23,7 +23,7 @@ const config = () => {
           // Dynamic Component
           {
             path: '', // www.example.com/home
-            component: () => import(/* webpackChunkName: "pages.index" */ './/pages/index')
+            component: () => import(/* webpackChunkName: "pages.index" */ './pages/index')
               .then(interopRequire)
               .then(Index => <Index />)
           },
@@ -35,7 +35,7 @@ const config = () => {
         routes: [
           {
             path: '', // www.example.com/bar
-            component: () => import(/* webpackChunkName: "pages.bar" */ './/pages/bar')
+            component: () => import(/* webpackChunkName: "pages.bar" */ './pages/bar')
               .then(interopRequire)
               .then(Bar => <Bar />)
           },
@@ -43,13 +43,13 @@ const config = () => {
       },
       {
         path: '/foo', // www.example.com/foo
-        component: () => import(/* webpackChunkName: "pages.foo" */ './/pages/foo')
+        component: () => import(/* webpackChunkName: "pages.foo" */ './pages/foo')
           .then(interopRequire)
           .then(Foo => <Foo />)
       },
       // Error
       {
-        component: () => import(/* webpackChunkName: "pages.error" */ './/pages/_error')
+        component: () => import(/* webpackChunkName: "pages.error" */ './pages/_error')
           .then(interopRequire)
           .then(Error => <Error />)
       }

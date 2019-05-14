@@ -129,6 +129,10 @@ function askProjectInformaction(name, verbose) {
           value: 'webapp'
         },
         {
+          name: 'PWA',
+          value: 'pwa'
+        },
+        {
           name: 'WeexApp',
           value: 'weexapp'
         },

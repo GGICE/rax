@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "start": "rax-scripts start --type=webapp --pwa",
-    "build": "rax-scripts build",
+    "build": "rax-scripts build --type=webapp --pwa",
     "lint": "eslint --ext .js --ext .jsx ./src"
   },
   "dependencies": {

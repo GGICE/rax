@@ -1,0 +1,13 @@
+{
+  "enableSSR": true,
+  "enableCodeSplitting": true,
+  "enableServiceWorker": false,
+  "pages": {
+    "index": {
+      "file": "pages/home/index.js",
+      "title": "pageIndex",
+      "alias": "home"
+    },
+    "detail": "pages/detail/index.js"
+  }
+}

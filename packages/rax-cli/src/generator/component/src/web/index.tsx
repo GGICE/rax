@@ -9,9 +9,9 @@ const MyComponent = (props: Props) => {
     ...style
   };
   return (
-    <div {...rest} style={styleProps}>
+    <span {...rest} style={styleProps}>
       Hello World
-    </div>
+    </span>
   );
 };
 

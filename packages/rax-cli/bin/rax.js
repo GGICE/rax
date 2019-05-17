@@ -139,6 +139,10 @@ function askProjectInformaction(name, verbose) {
         {
           name: 'Component',
           value: 'component'
+        },
+        {
+          name: 'UniversalAPI',
+          value: 'universalapi'
         }
       ],
       default: 'webapp'
